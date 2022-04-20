@@ -20,7 +20,7 @@ streamElementsToken = 'JWT GOES HERE'
 
 * `MatcherinoId` can be grabbed from the matcherino, either from the URL or in the Admin Page, its the number next to "General"
 * `streamElementsAccountID` can be grabbed on your StreamElements account page.
-* `streamElementsToken` can also be grabbed on the account page, you need to click the "Show Secrets" button. You want the one marked "JWT Token" **be careful with this token, it is dangerous as it gives full api controller to whoever uses it**. If you happen to leak the token it can be reset on the Security tab of the profile.
+* `streamElementsToken` can also be grabbed on the account page, you need to click the "Show Secrets" button. You want the one marked "JWT Token." **Be careful with this token, it is dangerous as it gives full api control to whoever uses it**. If you happen to leak the token it can be reset on the Security tab of the profile.
 
 When you're done it should look something like this:
 ```python
